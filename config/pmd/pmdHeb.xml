@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         name="pmdEclipse"
+         xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+   <description>PMD HEB</description>
+   <rule ref="rulesets/java/strictexception.xml/AvoidCatchingNPE">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/strictexception.xml/AvoidThrowingNullPointerException">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/optimizations.xml/UseArraysAsList">
+    <priority>2</priority>
+  </rule>
+  <rule ref="rulesets/java/design.xml/EqualsNull">
+    <priority>2</priority>
+  </rule>
+  <rule ref="rulesets/java/design.xml/AbstractClassWithoutAbstractMethod">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/design.xml/AbstractClassWithoutAnyMethod">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/optimizations.xml/AddEmptyString">
+    <priority>2</priority>
+  </rule>
+  <rule ref="rulesets/java/strings.xml/AppendCharacterWithChar">
+    <priority>4</priority>
+  </rule>
+  <rule ref="rulesets/java/optimizations.xml/AvoidArrayLoops">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/strings.xml/InefficientEmptyStringCheck">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/controversial.xml/AvoidUsingShortType">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/optimizations.xml/AvoidInstantiatingObjectsInLoops">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/basic.xml/BigIntegerInstantiation">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/basic.xml/BooleanInstantiation">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/controversial.xml/BooleanInversion">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/design.xml/IdempotentOperations">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/strings.xml/InefficientStringBuffering">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/strings.xml/InsufficientStringBufferDeclaration">
+    <priority>4</priority>
+  </rule>
+  <rule ref="rulesets/java/optimizations.xml/SimplifyStartsWith">
+    <priority>4</priority>
+  </rule>
+  <rule ref="rulesets/java/strings.xml/StringInstantiation">
+    <priority>2</priority>
+  </rule>
+  <rule ref="rulesets/java/optimizations.xml/UseArraysAsList">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/strings.xml/UseIndexOfChar">
+    <priority>4</priority>
+  </rule>
+  <rule ref="rulesets/java/strings.xml/UseStringBufferLength">
+    <priority>4</priority>
+  </rule>
+  <rule ref="rulesets/java/controversial.xml/AvoidUsingVolatile">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/design.xml/MissingStaticMethodInNonInstantiatableClass">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/logging-jakarta-commons.xml/ProperLogger">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/design.xml/SimplifyConditional">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/strings.xml/StringToString">
+    <priority>4</priority>
+  </rule>
+  <rule ref="rulesets/java/codesize.xml/TooManyFields">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/basic.xml/UnusedNullCheckInEquals">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/controversial.xml/CallSuperInConstructor">
+    <priority>4</priority>
+  </rule>
+  <rule ref="rulesets/java/migrating.xml/IntegerInstantiation">
+    <priority>4</priority>
+  </rule>
+  <rule ref="rulesets/java/basic.xml/BrokenNullCheck">
+    <priority>2</priority>
+  </rule>
+  <rule ref="rulesets/java/basic.xml/MisplacedNullCheck">
+    <priority>2</priority>
+  </rule>
+  <rule ref="rulesets/java/j2ee.xml/UseProperClassLoader">
+    <priority>2</priority>
+  </rule>
+  <rule ref="rulesets/java/logging-java.xml/MoreThanOneLogger">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/design.xml/SimpleDateFormatNeedsLocale">
+    <priority>3</priority>
+  </rule>
+  <!-- <rule ref="rulesets/java/controversial.xml/UnusedModifier">
+    <priority>5</priority>
+  </rule> -->
+  <rule ref="rulesets/java/naming.xml/AvoidFieldNameMatchingMethodName">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/naming.xml/AvoidFieldNameMatchingTypeName">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/design.xml/AvoidReassigningParameters">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/basic.xml/AvoidUsingHardCodedIP">
+    <priority>2</priority>
+  </rule>
+  <rule ref="rulesets/java/naming.xml/BooleanGetMethodName">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/design.xml/CloseResource">
+    <priority>2</priority>
+  </rule>
+  <rule ref="rulesets/java/design.xml/CompareObjectsWithEquals">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/coupling.xml/LooseCoupling">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/coupling.xml/ExcessiveImports">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/codesize.xml/ExcessivePublicCount">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/basic.xml/UselessOperationOnImmutable">
+    <priority>4</priority>
+  </rule>
+  <rule ref="rulesets/java/migrating.xml/LongInstantiation">
+    <priority>4</priority>
+  </rule>
+  <rule ref="rulesets/java/design.xml/NonThreadSafeSingleton">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/codesize.xml/TooManyMethods">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/design.xml/UnnecessaryLocalBeforeReturn">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/java/unusedcode.xml/UnusedFormalParameter">
+    <priority>3</priority>
+  </rule>
+</ruleset>
